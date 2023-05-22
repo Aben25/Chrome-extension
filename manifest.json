@@ -2,7 +2,11 @@
   "manifest_version": 3,
   "name": "GPT-4 Text Summarizer",
   "version": "1.0",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
